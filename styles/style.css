@@ -1,0 +1,53 @@
+.img {
+    width: 440px;
+    height: 572px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.wrappergallery {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header {
+    background-color: crimson;
+    text-align: center;
+}
+
+
+main {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+main:hover {
+    background-color: darkgrey;
+    color:darkred;
+}
+
+.imgSize {
+    width: 399px;
+    height: 600px;
+}
+
+table {
+    border: solid 3px darkred;
+    
+}
+
+table tr td {
+    border: solid 3px darkred;
+    background-color: navy;
+    color: aliceblue;
+}
+
+.tableWrapper {
+    justify-content: center;
+}
+
