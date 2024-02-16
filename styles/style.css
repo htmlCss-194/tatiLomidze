@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+body {
+background: rgb(252,216,0);
+background: linear-gradient(0deg, rgba(252,216,0,0.2050070028011205) 0%, rgba(45,253,230,0) 100%);
+}
+
+.navItems {
+    display: flex;
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+    padding-right: 219px;
+}
+.navItems a {
+    padding-right: 21px;
+}
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navWrapper {
+    display: flex;
+    align-items: center;
+}
+h3 {
+    color: var(--text-color, #252B42);
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+#navBar {
+    color: rgb(7, 7, 53);
+    text-align: right;
+    /* btn-text */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.2px;
+    padding-right: 45px;
+}
+#navBttn {
+    color: var(--light-text-color, #FFF);
+    /* btn-text */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.2px;
+}
+.navBttnWrapper {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    background: var(--primary-color, #96BB7C);
+}
+#bttnText {
+    color: var(--light-text-color, #FFF);
+    /* btn-text */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.2px;
+}
+#titleTxt {
+    padding-right: 45px;
+}
+
+h1 {
+   font-family: Montserrat;
+   font-size: 20px;
+   color:#252B42;
+}
+
+.mainTxt {
+   font-family: Roboto;
+   font-size: 16px;
+   color:black;
+}
+
+ul {
+   font-family: Oswald;
+   font-size: 18px;
+}
+
+ol {
+   font-family: Oswald;
+   font-size: 18px;  
+}

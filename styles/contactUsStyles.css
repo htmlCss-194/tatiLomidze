@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body {
+    background-color: rgb(209, 252, 252);
+}
+
+#titleTxt {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    color:#252B42;  
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 27px;
+    color:#252B42;
+ }
+
+h3 {
+    font-family: Roboto;
+    font-size: 18px;
+    color: black;
+}
+
+a{
+  font-family: Nunito;
+  font-size: 17px;
+  color:#00051a;
+}
+
+ul {
+    font-family: Oswald;
+    font-size: 16px;
+
+}
+
+p{
+    font-family: Oswald;
+    font-size: 16px;
+
+}
